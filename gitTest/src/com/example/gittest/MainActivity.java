@@ -3,6 +3,7 @@ package com.example.gittest;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -16,6 +17,8 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
+
+		Toast.makeText(this, "ohohohoh", Toast.LENGTH_SHORT).show();
 		return true;
 	}
 
